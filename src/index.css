@@ -8,3 +8,19 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+input {
+  @apply w-full py-3 rounded-md indent-4 outline-none focus:outline-4 focus:outline-purple-700;
+}
+
+button {
+  @apply flex gap-3 items-center justify-center py-3 rounded-md text-white font-medium bg-purple-700 transition duration-300 hover:bg-purple-800;
+}
+
+.meme-text {
+  @apply absolute text-white uppercase text-5xl tracking-wide left-1/2 -translate-x-1/2 my-5;
+  font-family: impact, sans-serif;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
