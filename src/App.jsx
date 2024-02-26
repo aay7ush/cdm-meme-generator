@@ -1,4 +1,10 @@
+import Header from './components/Header'
+
 const App = () => {
-  return <h1 className="text-3xl font-bold">Let's build</h1>
+  return (
+    <main className="my-10 mx-5 text-xl grid place-content-center gap-y-5">
+      <Header />
+    </main>
+  )
 }
 export default App
