@@ -1,12 +1,8 @@
-import Header from './components/Header'
-import Meme from './components/Meme'
-
 const App = () => {
   return (
-    <main className="my-10 mx-5 text-xl grid place-content-center gap-y-5">
-      <Header />
-      <Meme />
-    </main>
+    <h1 className="text-3xl font-bold underline">
+      Let's build Meme Generator!
+    </h1>
   )
 }
 export default App
