@@ -45,7 +45,7 @@ const Meme = () => {
       })
   }
   return (
-    <section className="grid gap-y-5">
+    <section className="grid gap-y-5 max-w-3xl">
       <div className="flex gap-3">
         <input
           type="text"
@@ -67,7 +67,7 @@ const Meme = () => {
         <Image />
       </button>
       <div id="memeContainer" className="relative">
-        <img src={meme.randomImage} className="rounded-xl max-w-full" />
+        <img src={meme.randomImage} className="rounded-xl w-full" />
         <p className="meme-text top-0">{meme.topText}</p>
         <p className="meme-text bottom-0">{meme.bottomText}</p>
       </div>
