@@ -1,0 +1,3 @@
+tabs: ["src/App.jsx","src/index.css","src/components/Header.jsx","src/components/Meme.jsx"]
+terminals: ["bun install && bun run dev"]
+run-button: bun run dev
